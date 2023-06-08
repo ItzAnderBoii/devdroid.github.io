@@ -123,10 +123,10 @@
 @media screen and (min-width: 300px) and (max-width: 600px) {
    
    .fourth-class {
-    font-size: 12px;
+    font-size: 14px;
    }
     .first-class {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .img-1 {
@@ -135,17 +135,21 @@
         height: 150px;
         width: auto;
     }
+
+.third-class {
+        font-size: 12px;
+    }
     
 }
 /* Small Device */
 @media screen and (max-width: 700px) {
 
     .fourth-class {
-        font-size: 12px;
+        font-size: 15px;
        }
 
     .first-class {
-        font-size: 12px;
+        font-size: 15px;
     }
 
     .img-1 {
