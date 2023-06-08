@@ -1,0 +1,230 @@
+.body-1 {
+    background-image: linear-gradient(#000000, #1a1a1a) ;
+
+}
+
+.nav-bar {
+    background-color: #f9fff7;
+    height: 50px;
+    position: fixed;
+    display: flex;
+    border-radius: 1px;
+    padding: -10px;
+    left: 0;
+    top: 0;
+    right: 0;
+    transition: .5s;
+    justify-content: space-between;
+    letter-spacing: 0.5px;
+    font-family: Verdana;
+    
+}
+
+.nav-bar:hover {
+    box-shadow: 0 5px 5px 0 rgb(105, 105, 105);
+    
+}
+.logo {
+    border-radius: 100px;
+
+}
+
+
+.objects {
+   
+    list-style: none;
+   font-size: 13px;
+   display: flex;
+   padding-top: 4px;
+   padding-right: 5px;
+   transition: .5s;
+  
+  
+}
+
+.objects a {
+    color: black;
+    
+}
+
+.objects a:hover {
+    transition: .5s;
+   color: rgb(85, 85, 85);
+   
+}
+
+.nav-bar.sticky {
+    background-color: #d6d4d4;
+}
+
+
+.first-class {
+    font-family: Verdana;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+
+.first-h {
+   color: greenyellow;
+}
+
+.desc-1 {
+    color: white;
+}
+
+.second-class {
+    text-align: center;
+}
+
+.img-1:hover {
+    transition: .5s;
+    opacity: 0.9;
+    box-shadow: 0 10px 15px 0 rgb(202, 202, 202);
+}
+
+.third-class {
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: .5s;
+}
+
+.third-class:hover {
+    color: rgb(224, 252, 182);
+}
+
+.fourth-class {
+    text-align: center;
+    font-family: Verdana;
+   
+    transition: .5s;
+    
+}
+
+.fourth-class a {
+    text-decoration: none;
+    color: white;
+}
+
+.fourth-class a:hover {
+     color: rgb(224, 252, 182);
+} 
+
+.fourth-class a:active {
+    color: rgb(224, 252, 182);
+} 
+.fourth-class li {
+    padding-right: 45px;
+    list-style: none;
+}
+/* Responsive Stuff */
+
+/* Very small device */
+@media screen and (min-width: 300px) and (max-width: 600px) {
+   
+   .fourth-class {
+    font-size: 8px;
+   }
+    .first-class {
+        font-size: 8px;
+    }
+
+    .img-1 {
+       
+        border-radius: 5px;
+        height: 150px;
+        width: auto;
+    }
+    
+}
+/* Small Device */
+@media screen and (max-width: 700px) {
+
+    .fourth-class {
+        font-size: 12px;
+       }
+
+    .first-class {
+        font-size: 12px;
+    }
+
+    .img-1 {
+       
+        border-radius: 5px;
+        height: 210px;
+        width: auto;
+    }
+
+    .third-class {
+        font-size: 13px;
+    }
+   
+}
+
+/* Moobile and Tablet */
+@media screen and (min-width: 700px) and (max-width: 920px) {
+
+    .fourth-class {
+        font-size: 19px;
+       }
+
+
+    .first-class {
+        font-size: 19px;
+    
+}
+
+.img-1 {
+       
+    border-radius: 5px;
+    height: 310px;
+ }
+
+ .third-class {
+    font-size: 16px;
+}
+ 
+}
+/* Tablet and Laptop */
+@media screen and (min-width: 910px) and (max-width: 1250px) {
+
+    .fourth-class {
+        font-size: 22px;
+       }
+
+    .first-class {
+        font-size: 22px;
+    }
+    
+    .img-1 {
+       
+        border-radius: 5px;
+        height: 390px;
+}
+
+.third-class {
+    font-size: 19px;
+}
+
+ }
+/* Laptop and PC */
+@media screen and (min-width: 1300px) and (max-width: 2200px) {
+    
+    .fourth-class {
+        font-size: 25px;
+       }
+    
+    .first-class {
+        font-size: 34px;
+    }
+    .img-1 {
+       
+        border-radius: 5px;
+        height: 420px;
+    
+}
+
+.third-class {
+    font-size: 21px;
+}
+ }
