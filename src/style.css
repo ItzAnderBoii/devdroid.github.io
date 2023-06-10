@@ -145,11 +145,11 @@
 @media screen and (max-width: 700px) {
 
     .fourth-class {
-        font-size: 15px;
+        font-size: 18px;
        }
 
     .first-class {
-        font-size: 15px;
+        font-size: 18px;
     }
 
     .img-1 {
@@ -160,7 +160,7 @@
     }
 
     .third-class {
-        font-size: 13px;
+        font-size: 14px;
     }
    
 }
@@ -169,12 +169,12 @@
 @media screen and (min-width: 700px) and (max-width: 920px) {
 
     .fourth-class {
-        font-size: 19px;
+        font-size: 24px;
        }
 
 
     .first-class {
-        font-size: 19px;
+        font-size: 24px;
     
 }
 
@@ -185,7 +185,7 @@
  }
 
  .third-class {
-    font-size: 16px;
+    font-size: 18px;
 }
  
 }
@@ -193,11 +193,11 @@
 @media screen and (min-width: 910px) and (max-width: 1250px) {
 
     .fourth-class {
-        font-size: 22px;
+        font-size: 28px;
        }
 
     .first-class {
-        font-size: 22px;
+        font-size: 28px;
     }
     
     .img-1 {
@@ -207,7 +207,7 @@
 }
 
 .third-class {
-    font-size: 19px;
+    font-size: 24px;
 }
 
  }
@@ -215,7 +215,7 @@
 @media screen and (min-width: 1300px) and (max-width: 2200px) {
     
     .fourth-class {
-        font-size: 25px;
+        font-size: 34px;
        }
     
     .first-class {
@@ -229,6 +229,6 @@
 }
 
 .third-class {
-    font-size: 21px;
+    font-size: 28px;
 }
  }
